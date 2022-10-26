@@ -1,0 +1,14 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Tran",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^19.1.0"
+  }
+}
