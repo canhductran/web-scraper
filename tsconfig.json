@@ -5,13 +5,13 @@
     "module": "none",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
+    // "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "outDir": "dist",
     "pretty": true,
     "sourceMap": true,
-    "strictNullChecks": true,
+    // "strictNullChecks": true,
     "target": "es6"
   },
   "include": ["**/*"]
