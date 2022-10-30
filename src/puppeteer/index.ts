@@ -8,8 +8,12 @@ import * as puppeteer from "puppeteer";
   });
 
   const page = await browser.newPage();
-  await page.goto('https://google.com');
-  await page.pdf({path: 'google.pdf'});
+  await page.goto('https://vanbanphapluat.co/csdl/van-ban-phap-luat');
+  await page.waitForSelector('.page_inner');
+
+  const urls = await page.$$eval('div.block-content', links => {
+    console.log('links', links);
+  });
 
   await browser.close();
 })();
